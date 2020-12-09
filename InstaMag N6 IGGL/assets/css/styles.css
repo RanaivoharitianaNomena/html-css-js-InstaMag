@@ -23,7 +23,7 @@ html{
     flex-direction: column;
 }
 .title_site{
-    margin-top: 7px;
+    margin-top: 10px;
 }
 p{
     font-size : 1.9rem;
@@ -59,4 +59,21 @@ p{
 .row{
     margin-bottom: 2rem;
     padding-left: 1rem;
+}
+
+.replies {
+    margin: 2rem 0;
+    padding: 1rem 0;
+    transition: var(--eff);
+    display: none;
+}
+
+
+.reply_img{
+    width: 48px;
+    height: 48px;
+    overflow : hidden;
+    max-width: 100%;
+    display: block;
+    
 }
