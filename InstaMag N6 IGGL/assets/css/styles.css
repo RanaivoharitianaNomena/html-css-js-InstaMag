@@ -9,6 +9,10 @@
 * {
     font-family: var(--font-para);
 }
+
+html{
+    font-size: 62.5%;
+}
 .nav_spec{
     display: flex;
     justify-content: center;
@@ -17,4 +21,7 @@
 }
 .title_site{
     margin-top: 7px;
+}
+p{
+    font-size : 1.9rem;
 }
