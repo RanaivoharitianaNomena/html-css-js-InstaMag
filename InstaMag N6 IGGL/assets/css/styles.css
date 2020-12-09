@@ -29,7 +29,7 @@ p{
     font-size : 1.9rem;
 }
 
-.like_buton, .reply_buton{
+.content_left_div,.like_buton, .reply_buton{
     color: var(--btn-font-color);
     border-width: .2rem;
     font-size: var(--btn-font);
@@ -48,4 +48,8 @@ p{
 .left_div_btns {
     margin-top: 3rem;
     transition: var(--eff);
+}
+.content_title,content_left_div{
+    font-weight: 400;
+    font-size: 2.2rem;
 }
