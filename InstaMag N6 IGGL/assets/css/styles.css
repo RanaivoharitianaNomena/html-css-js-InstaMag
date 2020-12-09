@@ -4,6 +4,9 @@
     --bg-size: 100% 100%;
     --title: 'Josefin Sans', sans-serif;
     --font-para: 'David Libre', serif;
+    --btn-color: #bbe1fa;
+    --btn-font-color: #000;
+    --btn-font: 1.5rem;
 }
 
 * {
@@ -24,4 +27,20 @@ html{
 }
 p{
     font-size : 1.9rem;
+}
+
+.like_buton{
+    color: var(--btn-font-color);
+    border-width: .2rem;
+    font-size: var(--btn-font);
+    transition: var(--eff);
+    padding: .8rem 2rem;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+    font-family: var(--title); 
+}
+
+.left_div__like:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.8);
 }
