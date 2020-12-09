@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Josefin+Sans&display=swap');
+
+:root {
+    --title: 'Josefin Sans', sans-serif;
+    --font-para: 'David Libre', serif;
+}
+
+* {
+    font-family: var(--font-para);
+}
+.nav_spec{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
