@@ -29,7 +29,7 @@ p{
     font-size : 1.9rem;
 }
 
-.like_buton{
+.like_buton, .reply_buton{
     color: var(--btn-font-color);
     border-width: .2rem;
     font-size: var(--btn-font);
@@ -40,7 +40,7 @@ p{
     font-family: var(--title); 
 }
 
-.left_div__like:hover{
+.like_buton:hover,.reply_buton:hover{
     transform: translateY(-0.5rem);
     box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.8);
 }
