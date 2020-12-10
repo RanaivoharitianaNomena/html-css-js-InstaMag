@@ -107,6 +107,17 @@ p{
     font-size: 2.5rem;
     padding-left: 2rem;
 }
+.right_sub_div{
+    background: #fff;
+    padding: 2.5rem 1rem;  
+}
+.right_sub_div .row{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+.right_sub_div .row:last-child{
+    margin-bottom: 0;
+}
 @media screen and (min-width: 760px){
     html{
         font-size: 60%;
