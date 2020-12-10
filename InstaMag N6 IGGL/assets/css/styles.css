@@ -78,6 +78,26 @@ p{
 .content_left_div p span{
     color: #1b262c;
 }
+.news_div{
+    width: auto;
+    height: 35 rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, transparent 50%, rgba(208,206,207,0.8) 50%), url('../img/epic.jpg');
+    background-size: var(--bg-size);
+}
+.news_div p:first-child{
+    padding-bottom: 0.2rem;
+    font-size: 2.2rem;
+}
+
+.news_div p {
+    font-size: 1.8rem;;
+    padding-bottom: 1rem;
+    color: #000;
+}
 /* 
 @media screen and (min-width: 760px){
     html{
