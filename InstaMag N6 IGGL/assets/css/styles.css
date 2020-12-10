@@ -166,7 +166,9 @@ p{
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-
+  .mySlides {
+    display: none;
+  }
 @media screen and (min-width: 760px){
     html{
         font-size: 60%;
