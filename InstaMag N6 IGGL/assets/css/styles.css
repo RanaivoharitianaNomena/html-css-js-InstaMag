@@ -71,3 +71,9 @@ p{
 .repl_img{
     width: 100px;
 }
+
+@media screen and (min-width: 760px){
+    html{
+        font-size: 60%;
+    }
+}
