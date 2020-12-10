@@ -118,6 +118,17 @@ p{
 .right_sub_div .row:last-child{
     margin-bottom: 0;
 }
+
+/* .popular_post_img1{
+     background-image: url('../img/popular\ img\ 1.png'); 
+    background-size: var(--bg-size);
+    width: 70px;
+    height: 70px;
+} */
+.popimg{
+    width: 78px;
+    height: 70px;
+}
 @media screen and (min-width: 760px){
     html{
         font-size: 60%;
