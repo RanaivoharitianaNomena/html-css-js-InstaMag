@@ -79,18 +79,19 @@ p{
     color: #1b262c;
 }
 .news_div{
-    width: auto;
+    width: 600px;
     height: 300px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, transparent 50%, rgba(208,206,207,0.8) 50%), url('../img/epic.jpg');
+    background-image: linear-gradient(to bottom, transparent 65%, rgba(208,206,207,0.8) 50%), url('../img/epic.jpg');
     background-size: var(--bg-size);
 }
 .news_div p:first-child{
     padding-bottom: 0.2rem;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
+    font-family: var(--font-para);
 }
 
 .news_div p {
@@ -105,6 +106,7 @@ p{
     }
     .news_div{
         height: 300px;
+       
     }
     
 }
