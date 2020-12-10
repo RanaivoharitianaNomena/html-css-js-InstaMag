@@ -80,7 +80,7 @@ p{
 }
 .news_div{
     width: auto;
-    height: 35 rem;
+    height: 300px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -98,9 +98,13 @@ p{
     padding-bottom: 1rem;
     color: #000;
 }
-/* 
+
 @media screen and (min-width: 760px){
     html{
         font-size: 60%;
     }
-} */
+    .news_div{
+        height: 300px;
+    }
+    
+}
