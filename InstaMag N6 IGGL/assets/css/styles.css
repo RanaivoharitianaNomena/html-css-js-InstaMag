@@ -68,7 +68,12 @@ p{
     display: none;
 }
 
+.repl_img{
+    width: 100px;
+}
 /* 
+
+
 .reply_img{
     width: 48px;
     height: 48px;
