@@ -4,9 +4,10 @@
     --bg-size: 100% 100%;
     --title: 'Josefin Sans', sans-serif;
     --font-para: 'David Libre', serif;
-    --btn-color: #bbe1fa;
+    --btn-color: #e9e9e9;
     --btn-font-color: #000;
     --btn-font: 1.5rem;
+    --font-color : #6c757d;
 }
 
 * {
@@ -24,9 +25,12 @@ html{
 }
 .title_site{
     margin-top: 10px;
-}
+   
+}   
 p{
     font-size : 1.9rem;
+    line-height: 170%;
+    color: var(--font-color);
 }
 
 .content_left_div,.like_buton, .reply_buton{
@@ -71,9 +75,9 @@ p{
 .repl_img{
     width: 100px;
 }
-
+/* 
 @media screen and (min-width: 760px){
     html{
         font-size: 60%;
     }
-}
+} */
