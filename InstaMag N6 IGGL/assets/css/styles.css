@@ -202,6 +202,11 @@ p{
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+.popop{
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
   
   @-webkit-keyframes fade {
     from {opacity: .4}
