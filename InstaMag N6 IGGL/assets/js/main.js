@@ -8,7 +8,8 @@ const reply = (rep) => {
         res.className = "replies";
     }
 }
- updateButton() {
+
+function updateButton() {
                 if (this.value === 'Like') {
                 this.value = '✓ Liked';
                  } else {
