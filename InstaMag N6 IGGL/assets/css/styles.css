@@ -33,7 +33,7 @@ p{
     color: var(--font-color);
 }
 
-.content_left_div,.like_buton, .reply_buton{
+.like_buton, .reply_buton{
     color: var(--btn-font-color);
     border-width: .2rem;
     font-size: var(--btn-font);
@@ -55,7 +55,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.content_title,content_left_div{
+.content_title{
     font-weight: 400;
     font-size: 2.2rem;
 }
@@ -74,6 +74,9 @@ p{
 
 .repl_img{
     width: 100px;
+}
+.content_left_div p span{
+    color: #1b262c;
 }
 /* 
 @media screen and (min-width: 760px){
