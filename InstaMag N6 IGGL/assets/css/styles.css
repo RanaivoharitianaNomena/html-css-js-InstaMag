@@ -63,6 +63,7 @@ p{
 .row{
     margin-bottom: 2rem;
     padding-left: 1rem;
+    margin-right: 0%;
 }
 
 .replies {
@@ -121,6 +122,10 @@ p{
 .popimg{
     width: 70px;
     height: 70px;
+}
+.imgmm1{
+  width: 160px;
+    height: 80px;
 }
 /* Next & previous buttons */
 .prev{
