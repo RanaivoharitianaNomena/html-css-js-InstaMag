@@ -207,7 +207,35 @@ p{
     margin-top: 1.5rem;
     margin-bottom: .5rem;
 }
-  
+
+.right_div_tag{
+  background: #fff;
+  box-shadow: 0 1rem 3rem -1rem rgba(0, 0, 0, 0.4);
+}
+.right_div_tag{
+  padding-left: 0;
+  padding-right: 0;
+}
+.tags_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4rem, 8rem));
+  grid-gap: .5rem;
+}
+
+.tags_main a {
+  color: rgb(114, 112, 112);
+  font-size: 1.7rem;
+  line-height: 170%;
+  font-weight: lighter;
+  background: #bbc3cabe;
+  transition: var(--eff);
+  text-decoration: none;
+}
+
+.tags_main a:hover {
+  color: var(--btn-font-color);
+  background: var(--btn-color);
+}
   @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
