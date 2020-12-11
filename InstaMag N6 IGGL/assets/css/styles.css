@@ -333,3 +333,43 @@ p{
         user-select: none;
       }
 }
+
+/*header responsive code*/
+@media(max-width:998px) {
+  html {
+      font-size: 60%;
+  }
+
+  .left_div_blog {
+      margin: 3rem 0;
+  }
+
+  p,
+  label,
+  input::placeholder {
+      font-size: 2.2rem;
+  }
+
+  :root {
+      --btn-font: 2rem;
+  }
+
+  .main_head h2 {
+      font-size: 5rem;
+  }
+
+ 
+
+}
+
+@media(max-width:768px) {
+  html {
+      font-size: 45%;
+  }
+
+  .left_div_blog {
+      margin: 3rem 0;
+  }
+  
+
+}
