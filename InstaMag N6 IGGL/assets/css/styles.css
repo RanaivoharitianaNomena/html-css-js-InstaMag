@@ -122,7 +122,6 @@ p{
     width: 70px;
     height: 70px;
 }
-
 /* Next & previous buttons */
 .prev{
     text-decoration: none;
@@ -208,7 +207,7 @@ p{
     margin-bottom: .5rem;
 }
 
-.right_div_tag{
+.right_div_tag,.moments_div_post{
   background: #fff;
   box-shadow: 0 1rem 3rem -1rem rgba(0, 0, 0, 0.4);
 }
@@ -221,7 +220,15 @@ p{
   grid-template-columns: repeat(auto-fill, minmax(4rem, 8rem));
   grid-gap: .5rem;
 }
+.row>.moments_div_post{
+  padding-left: 0;
+  padding-right: 0;
+}
 
+.row>.right_div_tag{
+  padding-left: 0;
+  padding-right: 0;
+}
 .tags_main a {
   color: rgb(114, 112, 112);
   font-size: 1.7rem;
